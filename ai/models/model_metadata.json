@@ -1,0 +1,68 @@
+{
+  "champion_model": "Calibrated Linear SVC",
+  "vocabulary_size": 1177,
+  "training_samples": 1440,
+  "test_samples": 360,
+  "benchmarks": {
+    "Logistic Regression": {
+      "accuracy": 0.9972,
+      "precision": 0.9917,
+      "recall": 1.0,
+      "f1": 0.9959,
+      "roc_auc": 1.0,
+      "fpr": 0.0042,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 239,
+        "fp": 1,
+        "fn": 0,
+        "tp": 120
+      }
+    },
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.9944,
+      "precision": 0.9836,
+      "recall": 1.0,
+      "f1": 0.9917,
+      "roc_auc": 1.0,
+      "fpr": 0.0083,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 238,
+        "fp": 2,
+        "fn": 0,
+        "tp": 120
+      }
+    },
+    "Calibrated Linear SVC": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 240,
+        "fp": 0,
+        "fn": 0,
+        "tp": 120
+      }
+    },
+    "Random Forest": {
+      "accuracy": 0.9972,
+      "precision": 0.9917,
+      "recall": 1.0,
+      "f1": 0.9959,
+      "roc_auc": 1.0,
+      "fpr": 0.0042,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 239,
+        "fp": 1,
+        "fn": 0,
+        "tp": 120
+      }
+    }
+  }
+}
