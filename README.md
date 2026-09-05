@@ -61,7 +61,17 @@ ai-scamshield/
 
 ---
 
-## 🚀 Quick Start Guide
+## 🌐 1-Click Cloud Deployment (Render / Docker)
+
+AI ScamShield can be deployed online for free as a single unified web service.
+Refer to the complete step-by-step guide in [DEPLOYMENT.md](file:///c:/Users/sanab/project/ai%20scamshield1/DEPLOYMENT.md).
+
+* **Render Build Command**: `cd frontend && npm install && npm run build && cd .. && pip install -r requirements.txt`
+* **Render Start Command**: `uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT`
+
+---
+
+## 🚀 Local Quick Start Guide
 
 ### 1. Prerequisites
 - Python 3.13+

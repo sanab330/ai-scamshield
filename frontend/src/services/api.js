@@ -2,8 +2,9 @@
  * API Service for AI ScamShield.
  * Communicates with the local FastAPI backend daemon.
  */
-
-const API_BASE = '/api';
+// Base API URL: Defaults to relative '/api' for same-origin/unified hosting,
+// or uses VITE_API_BASE_URL if frontend is hosted separately (e.g., on Vercel).
+const API_BASE = import.meta.env.VITE_API_BASE_URL || '/api';
 
 export async function scanMessage(text) {
   const response = await fetch(`${API_BASE}/scan/message`, {
